@@ -4,7 +4,7 @@
   "description": "This is (will be?) a simple paper trading app created to explore React.js as well as other js frameworks and libraries.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,14 @@
     "babel-preset-stage-0": "^6.16.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-test-renderer": "^15.3.2",
     "webpack": "^1.13.3"
+  },
+  "devDependencies": {
+    "babel-jest": "^16.0.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "jest": "^16.0.2",
+    "react-test-renderer": "^15.3.2"
   }
 }

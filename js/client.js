@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TestComponent from './testcomponent';
 
 class TestLayout extends React.Component {
   render() {
@@ -7,5 +8,4 @@ class TestLayout extends React.Component {
   }
 }
 
-
-ReactDOM.render(<TestLayout />, document.getElementById("app"))
+ReactDOM.render(<TestComponent />, document.getElementById("app"))
