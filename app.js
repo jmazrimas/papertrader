@@ -10,6 +10,7 @@ app.set('views',path.join(__dirname,'views'))
 //Middleware
 
 app.use(bodyParser());
+app.use(express.static(path.join(__dirname,'resources'))
 
 //Routes
 
@@ -19,7 +20,7 @@ app.get('/', function(req,res) {
 
 app.post('/', function(req,res){
 	console.log(req.body)
-	res.render('index')
+	res.redirect('/')
 })
 
 
